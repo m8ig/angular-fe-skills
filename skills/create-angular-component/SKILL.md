@@ -1,6 +1,6 @@
 ---
 name: create a new angular component
-description: Use when creating any Angular component. Covers Angular 21+ patterns: standalone components, signals, input(), inject(), async/await with run() helper, ngModel forms, @if/@for template syntax. No OnPush, no NgModules, no UntilDestroy.
+description: "Use when creating any Angular component. Covers Angular 21+ patterns: standalone components, signals, input(), inject(), async/await with run() helper, ngModel forms, @if/@for template syntax. No OnPush, no NgModules, no UntilDestroy."
 ---
 
 Based on: Angular 21+, standalone components, signals, Tailwind CSS.

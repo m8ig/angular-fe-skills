@@ -1,6 +1,6 @@
 ---
 name: set up icon system
-description: Use when setting up an icon system in a web project. Covers two approaches: icon font for monochrome icons (recommended first choice) and SVG sprites for multicolor icons.
+description: "Use when setting up an icon system in a web project. Covers two approaches: icon font for monochrome icons (recommended first choice) and SVG sprites for multicolor icons."
 ---
 
 Two approaches depending on whether icons are monochrome or multicolor.

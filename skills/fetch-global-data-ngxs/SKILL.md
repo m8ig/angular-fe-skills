@@ -1,6 +1,6 @@
 ---
 name: fetch and store global data (ngxs)
-description: Use when data must be loaded once on app start and available across all features — regardless of which route the user visits. Covers the Bootstrap store + Resolver pattern: global state, cache-first resolver, and attaching it to the root route so all lazy-loaded children receive the data before rendering.
+description: "Use when data must be loaded once on app start and available across all features — regardless of which route the user visits. Covers the Bootstrap store + Resolver pattern: global state, cache-first resolver, and attaching it to the root route so all lazy-loaded children receive the data before rendering."
 ---
 
 For feature-specific data loading see `Fetch and store feature data (NGXS).md`. This skill covers a different problem: data that is **not tied to any specific feature** and must be available everywhere — configuration, user profile, app-wide settings, marketing sections, etc.

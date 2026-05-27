@@ -1,6 +1,6 @@
 ---
 name: handle deeplinks (web + mobile)
-description: Use when a project has native iOS/Android apps and needs URL-based deep linking. Covers two scenarios: (A) web app + mobile — Universal Links/App Links with web fallback and smart banner; (B) landing page only + mobile — AASA file intercepts links from emails/SMS, fallback page with store download buttons if app not installed.
+description: "Use when a project has native iOS/Android apps and needs URL-based deep linking. Covers two scenarios: (A) web app + mobile — Universal Links/App Links with web fallback and smart banner; (B) landing page only + mobile — AASA file intercepts links from emails/SMS, fallback page with store download buttons if app not installed."
 ---
 
 # Handle deeplinks — web + mobile
