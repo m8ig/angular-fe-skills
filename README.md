@@ -37,7 +37,7 @@ claude plugin add m8ig/angular-fe-skills
 
 ```bash
 git clone https://github.com/m8ig/angular-fe-skills /tmp/angular-fe-skills
-cp -r /tmp/angular-fe-skills/skills/* ~/.agents/skills/
+cp -r /tmp/angular-fe-skills/skills/* ~/.codex/skills/
 ```
 
 ## Usage
