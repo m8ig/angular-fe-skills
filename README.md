@@ -1,6 +1,8 @@
-# Angular Frontend Skills — Claude Code Plugin
+# Angular Frontend Skills
 
 A collection of 16 skills for Angular frontend development. Covers project setup, component patterns, state management, design system, and tooling.
+
+Compatible with **Claude Code** and **OpenAI Codex**.
 
 ## Skills
 
@@ -25,18 +27,33 @@ A collection of 16 skills for Angular frontend development. Covers project setup
 
 ## Installation
 
+### Claude Code
+
 ```
 claude plugin add m8ig/angular-fe-skills
 ```
 
+### OpenAI Codex
+
+```bash
+git clone https://github.com/m8ig/angular-fe-skills /tmp/angular-fe-skills
+cp -r /tmp/angular-fe-skills/skills/* ~/.agents/skills/
+```
+
 ## Usage
 
-Invoke any skill by name in Claude Code:
+### Claude Code
 
 ```
 /create-angular-component
 /setup-color-palette
-/setup-icon-system
 ```
 
-Claude will load the relevant skill and follow its instructions for the task at hand.
+### OpenAI Codex
+
+```
+$create-angular-component
+$setup-color-palette
+```
+
+Skills also activate automatically when your task matches the skill description.
