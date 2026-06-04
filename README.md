@@ -1,6 +1,6 @@
 # Angular Frontend Skills
 
-A collection of 12 skills for Angular frontend development. Covers project setup, component patterns, state management, design system, and tooling.
+A collection of 15 skills for Angular frontend development. Covers project setup, component patterns, state management, design system, and tooling.
 
 Compatible with **Claude Code** and **OpenAI Codex**.
 
@@ -13,6 +13,9 @@ Compatible with **Claude Code** and **OpenAI Codex**.
 | `add-favicon` | Use when adding favicons to a web project. Covers generating all required formats (svg, ico, png) and the full set of HTML link tags for cross-browser and PWA support. |
 | `add-meta-tags` | Use when adding SEO meta tags to a web project. Covers the full set of Open Graph, Twitter Card, and standard SEO meta tags with examples for Next.js and Angular. |
 | `create-angular-component` | Use when creating any Angular component. Covers Angular 21+ patterns: standalone components, signals, input(), inject(), async/await with run() helper, ngModel forms, @if/@for template syntax. No OnPush, no NgModules, no UntilDestroy. |
+| `create-data-access-library` | Use when creating the Angular HTTP client layer for a new feature in the Baza NX monorepo. Covers Observable-based service wrappers around REST endpoints, file structure, and module setup. |
+| `create-new-feature-library` | Use when creating a new lazy-loaded route group in the NX monorepo. Covers folder structure, routes file, root route component, data-access integration, and naming conventions for Angular 17+ standalone components. |
+| `create-ui-components-library` | Use when creating a reusable UI component that appears on more than one page or feature. Covers dumb component pattern — receives data via @Input(), reads auth state via @Select(), dispatches store actions. |
 | `customize-bootstrap` | Use when customizing Bootstrap components in an Angular project. Covers the four levels of customization — variables first, then overrides. |
 | `fetch-feature-data-ngxs` | Use when deciding how to fetch and store data in an Angular app. Covers when to use NGXS store vs plain service, store folder structure, actions/state/selectors patterns, and lazy-load-triggered data fetching. |
 | `fetch-global-data-ngxs` | Use when data must be loaded once on app start and available across all features. Covers the Bootstrap store + Resolver pattern: global state, cache-first resolver, attached to the root route. |
