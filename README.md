@@ -1,6 +1,6 @@
 # Angular Frontend Skills
 
-A collection of 15 skills for Angular frontend development. Covers project setup, component patterns, state management, design system, and tooling.
+A collection of 16 skills for Angular frontend development. Covers project setup, component patterns, state management, design system, and tooling.
 
 Compatible with **Claude Code** and **OpenAI Codex**.
 
@@ -23,6 +23,7 @@ Compatible with **Claude Code** and **OpenAI Codex**.
 | `setup-color-palette` | Use when setting up SCSS color variables in a project. Covers the _palette.scss + _bootstrap.scss + variables.scss structure for organizing base colors, shades, and functional colors. |
 | `setup-design-tokens` | Use when connecting Figma design variables to the codebase. Covers Tokens Studio plugin + Style Dictionary workflow for a single source of truth without manual syncing. |
 | `setup-icon-system` | Use when setting up an icon system in a web project. Covers two approaches: icon font for monochrome icons (recommended first choice) and SVG sprites for multicolor icons. |
+| `write-css-less-scss-styles` | Use when writing or editing CSS/LESS/SCSS styles for a web feature. Covers where styles live (global ui-styles lib, not component-local), BEM naming, no nested selectors, comment convention, and a no-JS slide/expand animation technique. |
 
 ## Installation
 
